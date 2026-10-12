@@ -1,0 +1,21 @@
+{
+  "name": "baileys-media",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Conector WhatsApp (Baileys) que apenas baixa e arquiva mídias recebidas",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node --env-file-if-exists=.env src/index.js",
+    "check": "node --check src/index.js && node --check src/media.js && node --check src/transcribe.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^7.0.0-rc14",
+    "pino": "^10.4.0",
+    "qrcode": "^1.5.4",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
