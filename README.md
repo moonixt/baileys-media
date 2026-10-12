@@ -97,3 +97,7 @@ transcrição só gera um aviso no log, e o áudio continua salvo.
 - `src/transcribe.js`: transcrição opcional com Whisper
 
 > Aviso: o Baileys não é uma API oficial do WhatsApp. Use com uma conta sua e com moderação.
+
+## Licença
+
+Artificial Manufactory Subscription License: uso permitido apenas para assinantes ativos. Veja [LICENSE](LICENSE).
